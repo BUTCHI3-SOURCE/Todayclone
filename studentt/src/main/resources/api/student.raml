@@ -1,0 +1,13 @@
+#%RAML 1.0
+baseUri: https://anypoint.mulesoft.com/mocking/api/v1/links/4f9a96ca-6aad-46d6-bc2d-815391a67eda/ # 
+title: student
+/getDetails:
+  get:
+    queryParameters:
+      id: number
+    responses:
+      200:
+        body:
+          application/json:
+            example: !include EXAMPLE/example.raml
+                
