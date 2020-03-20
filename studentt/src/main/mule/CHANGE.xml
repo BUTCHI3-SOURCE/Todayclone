@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<mule xmlns="http://www.mulesoft.org/schema/mule/core" xmlns:doc="http://www.mulesoft.org/schema/mule/documentation"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.mulesoft.org/schema/mule/core http://www.mulesoft.org/schema/mule/core/current/mule.xsd">
+	<flow name="CHANGEFlow" doc:id="9d2a74b0-d544-4049-8e2c-0e2840afcb5b" >
+		<set-payload value="changeeeeeeeeeeeeeeeeeeeee" doc:name="Set Payload" doc:id="d99e8cba-141f-4899-9b13-14e1e8aa83de" />
+		<logger level="INFO" doc:name="Logger" doc:id="743ff87a-da24-429b-96eb-975b023ac84f" message="111111111111111111111111111111"/>
+	</flow>
+</mule>
